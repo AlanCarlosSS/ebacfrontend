@@ -1,0 +1,20 @@
+@use "header";
+@use "produtos";
+
+$primary-color: #182C61;
+$secondary-color: #44bd32;
+$text-color: #fff;
+header {
+    background-color: $primary-color;
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+  
+  .menu li a {
+    color: $text-color;
+  }
+  
+  .product-button {
+    background-color: $secondary-color;
+  }  

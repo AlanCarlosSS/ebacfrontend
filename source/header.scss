@@ -1,0 +1,25 @@
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .menu li {
+    font-weight: bold;
+    margin-left: 24px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+  }  
